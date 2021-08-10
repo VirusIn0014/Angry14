@@ -94,8 +94,6 @@ if ENV:
     VIRUS_API_KEY = os.environ.get("VIRUS_API_KEY", None)
     DOWNLOAD_LOCATION = "Downloads/"
     DEF_WATER_MARK_FILE = ""
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     UPSTREAM_REPO = os.environ.get(
         "UPSTREAM_REPO", "LoL🤣"
     )
